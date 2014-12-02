@@ -1,0 +1,17 @@
+# Site settings
+title: TypeScript Ninja
+email: vvakame+typescript@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  TypeScriptについて色々書くよ。忍者！
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://typescript-ninja.github.io" # the base hostname & protocol for your site
+twitter_username: vvakame
+github_username:  vvakame
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+
+timezone: Asia/Tokyo
+exclude: [README.md, Gemfile, Gemfile.lock]
