@@ -13,7 +13,7 @@ title: TypeScript in Definitelyland 発行
 落ち着いて周囲を回ってみると、TechBoosterみたく在庫ガン積みしてる所が見当たらなくて、あってくぶって変なサークルだったの…？？と知りました。
 [Unity部さんはバウチャー販売になってて](http://www.unity-bu.com/2014/12/unibook2.html)在庫の山を積んでいなかったので、賢いな…！と思いました。
 
-頒布前から宣言していた通り、その[全文を公開](http://typescript.ninja/typescript-in-definitelyland/)します。
+頒布前から宣言していた通り、その[全文を公開](http://typescript.ninja/typescript-in-definitelyland/preface.html)します。
 GitHubリポジトリは[こちら](https://github.com/typescript-ninja/typescript-in-definitelyland/)。
 本書はTypeScriptリファレンス（[Amazon](http://www.amazon.co.jp/gp/product/484433588X?tag=damenako-22)、[達人出版会](http://tatsu-zine.com/books/typescript-reference)）の既読、未読に関わらず読めるようになっています。
 本書ではJavaScriptの細かい仕様については解説していません。もし、JavaScript自体の仕様について、TypeScriptと共に学びたい場合はTypeScriptリファレンスの購入をお勧めします。
