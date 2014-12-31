@@ -8,6 +8,10 @@ title: TypeScript in Definitelyland 発行
 どうも、[vvakame](https://twitter.com/vvakame)です。
 
 去る12月30日、[コミックマーケット87](http://www.comiket.co.jp/)にてTypeScript in Definitelylandという冊子を[頒布](http://techbooster.github.io/c87/#typescript)しました。
+当日買いに来てくださった方、本当にありがとうございました！見本誌が見られている間、なかなかドキドキするものですね。
+前回C86でお昼すぎから初コミケを観戦に行き、今回は初めてサークル入場で売り子(の後ろから在庫出すマン)をしました。
+落ち着いて周囲を回ってみると、TechBoosterみたく在庫ガン積みしてる所が見当たらなくて、あってくぶって変なサークルだったの…？？と知りました。
+[Unity部さんはバウチャー販売になってて](http://www.unity-bu.com/2014/12/unibook2.html)在庫の山を積んでいなかったので、賢いな…！と思いました。
 
 頒布前から宣言していた通り、その[全文を公開](http://typescript.ninja/typescript-in-definitelyland/)します。
 GitHubリポジトリは[こちら](https://github.com/typescript-ninja/typescript-in-definitelyland/)。
@@ -39,10 +43,12 @@ TypeScriptリファレンスはTypeScript 1.0対応の書籍です。
       * asciidocは米O'Reillyが[atlas](https://atlas.oreilly.com/)という書籍執筆プラットフォームに採用
     * 拡張の容易さという意味では、Markupな言語が強い。Markdown類似のものは新規文法導入のコストが高い(記法から追加しないといけない)
     * 記述の容易さで張り合うには、テキストエディタによる気持ちのよいバックアップが必要
+      * Markdown系に一歩劣るというのは事実…
   * セットアップがダルいのが玉に瑕
     * Ruby処理系とlatex(PDF出力する場合)など。
     * [はじめのRe:VIEW](https://github.com/TechBooster/FirstStepReVIEW)あたりを参考にするとよい
     * latexで出したいわけじゃなくてPDFが得られればそれでいいので、[AH Formatter](http://www.antenna.co.jp/AHF/)（有料）または[vivliostyle](http://vivliostyle.co.jp/)さんのプロダクトに期待するのも手
+      * atlasはAF Formatterを採用しているそうな（CSS組版だ！
   * [review.js](https://vvakame.github.io/review.js/)作ってるけどやりたい事が多すぎてリソースが回ってない状態…
 * [GitHub](https://github.com/)
   * 言わずと知れた… これを使わないとかありえない
@@ -60,6 +66,8 @@ TypeScriptリファレンスはTypeScript 1.0対応の書籍です。
   * 校正を簡単な単語の置き換えレベルで自動化する
     * [てくぶ用設定](https://github.com/vvakame/prh/blob/master/misc/techbooster.yml)
     * 誤検出を抑える代わりに検出漏れが発生しやすいかも
+  * azuパイセンが[textlint](https://github.com/azu/textlint)というツールを作り始めたっぽい
+    * textlintのほうが筋は良さそうな気がする
 * [bundler](http://bundler.io/) [例](https://github.com/typescript-ninja/typescript-in-definitelyland/blob/master/Gemfile)
   * Re:VIEWのどのバージョンを使ってコンパイルするか表すため
   * 最新のリリースを使いたい場合やmaster/HEADが使いたい場合などがあるため
@@ -70,6 +78,7 @@ TypeScriptリファレンスはTypeScript 1.0対応の書籍です。
   * pdf, epub, html の生成用タスクを準備しておく
   * 本書の場合、サンプルコードのビルドチェックと原稿への埋め込み（review-preproc）なども行う
 * [Circle CI](https://circleci.com/)
+  * これから設定する… masterにpushがあるとgh-pagesを自動更新するやつ
   * CIサービスの中で最近一番流行ってる奴
   * Travis CIよりUIがこなれていて使いやすい
   * テスト実行時にインスタンスが割り当てられるのが早い
