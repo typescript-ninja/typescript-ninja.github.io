@@ -46,7 +46,7 @@ TypeScriptリファレンスはTypeScript 1.0対応の書籍です。
       * Markdown系に一歩劣るというのは事実…
   * セットアップがダルいのが玉に瑕
     * Ruby処理系とlatex(PDF出力する場合)など。
-    * [はじめのRe:VIEW](https://github.com/TechBooster/FirstStepReVIEW)あたりを参考にするとよい
+    * [はじめてのRe:VIEW](https://github.com/TechBooster/FirstStepReVIEW)あたりを参考にするとよい
     * latexで出したいわけじゃなくてPDFが得られればそれでいいので、[AH Formatter](http://www.antenna.co.jp/AHF/)（有料）または[vivliostyle](http://vivliostyle.co.jp/)さんのプロダクトに期待するのも手
       * atlasはAF Formatterを採用しているそうな（CSS組版だ！
   * [review.js](https://vvakame.github.io/review.js/)作ってるけどやりたい事が多すぎてリソースが回ってない状態…
